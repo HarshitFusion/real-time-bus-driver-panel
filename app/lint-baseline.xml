@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 8.12.2" type="baseline" client="gradle" dependencies="false" name="AGP (8.12.2)" variant="all" version="8.12.2">
+
+    <issue
+        id="InlinedApi"
+        message="Field requires API level 29 (current min is 24): `android.Manifest.permission#ACCESS_BACKGROUND_LOCATION`"
+        errorLine1="                    Manifest.permission.ACCESS_BACKGROUND_LOCATION"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/example/busdriverpanel/ui/screen/DashboardScreen.kt"
+            line="43"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="InlinedApi"
+        message="Field requires API level 29 (current min is 24): `android.Manifest.permission#ACCESS_BACKGROUND_LOCATION`"
+        errorLine1="                                    Manifest.permission.ACCESS_BACKGROUND_LOCATION"
+        errorLine2="                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/example/busdriverpanel/ui/screen/DashboardScreen.kt"
+            line="223"
+            column="37"/>
+    </issue>
+
+    <issue
+        id="NotificationPermission"
+        message="When targeting Android 13 or higher, posting a permission requires holding the `POST_NOTIFICATIONS` permission"
+        errorLine1="        notificationManager.notify(NOTIFICATION_ID, notification)"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/example/busdriverpanel/service/LocationTrackingService.kt"
+            line="204"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="RedundantLabel"
+        message="Redundant label can be removed"
+        errorLine1="            android:label=&quot;@string/app_name&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="34"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="AndroidGradlePluginVersion"
+        message="A newer version of Gradle than 8.13 is available: 8.14.3"
+        errorLine1="distributionUrl=https\://services.gradle.org/distributions/gradle-8.13-bin.zip"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/busdriverpanel/gradle/wrapper/gradle-wrapper.properties"
+            line="4"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.compose:compose-bom than 2024.09.00 is available: 2025.08.01"
+        errorLine1="composeBom = &quot;2024.09.00&quot;"
+        errorLine2="             ~~~~~~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/busdriverpanel/gradle/libs.versions.toml"
+            line="10"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.android.gms:play-services-auth than 21.2.0 is available: 21.4.0"
+        errorLine1="playServicesAuth = &quot;21.2.0&quot;"
+        errorLine2="                   ~~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/busdriverpanel/gradle/libs.versions.toml"
+            line="12"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.8.4 is available: 2.9.3"
+        errorLine1="viewmodelCompose = &quot;2.8.4&quot;"
+        errorLine2="                   ~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/busdriverpanel/gradle/libs.versions.toml"
+            line="16"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.navigation:navigation-compose than 2.8.0 is available: 2.9.3"
+        errorLine1="navigationCompose = &quot;2.8.0&quot;"
+        errorLine2="                    ~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/busdriverpanel/gradle/libs.versions.toml"
+            line="17"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.work:work-runtime-ktx than 2.9.1 is available: 2.10.3"
+        errorLine1="workRuntime = &quot;2.9.1&quot;"
+        errorLine2="              ~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/busdriverpanel/gradle/libs.versions.toml"
+            line="18"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of org.jetbrains.kotlin.android than 2.0.21 is available: 2.2.10"
+        errorLine1="kotlin = &quot;2.0.21&quot;"
+        errorLine2="         ~~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/busdriverpanel/gradle/libs.versions.toml"
+            line="3"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of org.jetbrains.kotlin.plugin.compose than 2.0.21 is available: 2.2.10"
+        errorLine1="kotlin = &quot;2.0.21&quot;"
+        errorLine2="         ~~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/busdriverpanel/gradle/libs.versions.toml"
+            line="3"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of com.squareup.retrofit2:converter-gson than 2.11.0 is available: 3.0.0"
+        errorLine1="retrofit = &quot;2.11.0&quot;"
+        errorLine2="           ~~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/busdriverpanel/gradle/libs.versions.toml"
+            line="13"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of com.squareup.retrofit2:retrofit than 2.11.0 is available: 3.0.0"
+        errorLine1="retrofit = &quot;2.11.0&quot;"
+        errorLine2="           ~~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/busdriverpanel/gradle/libs.versions.toml"
+            line="13"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of com.squareup.okhttp3:logging-interceptor than 4.12.0 is available: 5.1.0"
+        errorLine1="okhttp = &quot;4.12.0&quot;"
+        errorLine2="         ~~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/busdriverpanel/gradle/libs.versions.toml"
+            line="14"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of com.squareup.okhttp3:okhttp than 4.12.0 is available: 5.1.0"
+        errorLine1="okhttp = &quot;4.12.0&quot;"
+        errorLine2="         ~~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/busdriverpanel/gradle/libs.versions.toml"
+            line="14"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of com.google.code.gson:gson than 2.10.1 is available: 2.13.1"
+        errorLine1="gson = &quot;2.10.1&quot;"
+        errorLine2="       ~~~~~~~~">
+        <location
+            file="$HOME/AndroidStudioProjects/busdriverpanel/gradle/libs.versions.toml"
+            line="15"
+            column="8"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; `SDK_INT` is always >= 24"
+        errorLine1="        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/example/busdriverpanel/service/LocationTrackingService.kt"
+            line="123"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="This field leaks a context object"
+        errorLine1="    private val context = application.applicationContext"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/example/busdriverpanel/ui/viewmodel/DashboardViewModel.kt"
+            line="34"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.purple_200` appears to be unused"
+        errorLine1="    &lt;color name=&quot;purple_200&quot;>#FFBB86FC&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="3"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.purple_500` appears to be unused"
+        errorLine1="    &lt;color name=&quot;purple_500&quot;>#FF6200EE&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="4"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.purple_700` appears to be unused"
+        errorLine1="    &lt;color name=&quot;purple_700&quot;>#FF3700B3&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="5"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.teal_200` appears to be unused"
+        errorLine1="    &lt;color name=&quot;teal_200&quot;>#FF03DAC5&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="6"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.teal_700` appears to be unused"
+        errorLine1="    &lt;color name=&quot;teal_700&quot;>#FF018786&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="7"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.black` appears to be unused"
+        errorLine1="    &lt;color name=&quot;black&quot;>#FF000000&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="8"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.white` appears to be unused"
+        errorLine1="    &lt;color name=&quot;white&quot;>#FFFFFFFF&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="9"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.login_title` appears to be unused"
+        errorLine1="    &lt;string name=&quot;login_title&quot;>Bus Driver Login&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="3"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.bus_id_hint` appears to be unused"
+        errorLine1="    &lt;string name=&quot;bus_id_hint&quot;>Enter your assigned Bus ID&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="4"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.driver_name_hint` appears to be unused"
+        errorLine1="    &lt;string name=&quot;driver_name_hint&quot;>Enter your name (optional)&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="5"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.start_tracking` appears to be unused"
+        errorLine1="    &lt;string name=&quot;start_tracking&quot;>Start Tracking&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="6"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.stop_tracking` appears to be unused"
+        errorLine1="    &lt;string name=&quot;stop_tracking&quot;>Stop Tracking&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="7"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.bus_status_idle` appears to be unused"
+        errorLine1="    &lt;string name=&quot;bus_status_idle&quot;>Bus Idle&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="8"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.bus_status_moving` appears to be unused"
+        errorLine1="    &lt;string name=&quot;bus_status_moving&quot;>Bus Moving&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="9"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.location_permission_required` appears to be unused"
+        errorLine1="    &lt;string name=&quot;location_permission_required&quot;>Location permission is required for tracking&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="10"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.tracking_notification_title` appears to be unused"
+        errorLine1="    &lt;string name=&quot;tracking_notification_title&quot;>Bus Location Tracking&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="11"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.tracking_notification_text` appears to be unused"
+        errorLine1="    &lt;string name=&quot;tracking_notification_text&quot;>Sharing bus location with dispatch&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="12"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        errorLine1="        prefs.edit().clear().apply()"
+        errorLine2="        ~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/example/busdriverpanel/data/repository/BusRepository.kt"
+            line="82"
+            column="9"/>
+    </issue>
+
+</issues>

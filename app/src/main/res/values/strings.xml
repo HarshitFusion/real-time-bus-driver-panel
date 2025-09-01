@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bus Driver Panel</string>
+    <string name="login_title">Bus Driver Login</string>
+    <string name="bus_id_hint">Enter your assigned Bus ID</string>
+    <string name="driver_name_hint">Enter your name (optional)</string>
+    <string name="start_tracking">Start Tracking</string>
+    <string name="stop_tracking">Stop Tracking</string>
+    <string name="bus_status_idle">Bus Idle</string>
+    <string name="bus_status_moving">Bus Moving</string>
+    <string name="location_permission_required">Location permission is required for tracking</string>
+    <string name="tracking_notification_title">Bus Location Tracking</string>
+    <string name="tracking_notification_text">Sharing bus location with dispatch</string>
+</resources>
