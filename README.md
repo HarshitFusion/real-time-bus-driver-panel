@@ -1,23 +1,50 @@
-# Bus Driver Panel - Real-Time Location Tracking App
+# 🚌 Real-Time Bus Driver Panel
 
-## 🚌 Project Overview
+<div align="center">
 
-A lightweight Android app for bus drivers that automatically detects when the bus is moving and shares live location to AWS cloud backend every few seconds. This enables real-time tracking for authorities and provides accurate ETA calculations for passengers.
+[![Android](https://img.shields.io/badge/Platform-Android-green.svg)](https://android.com)
+[![Kotlin](https://img.shields.io/badge/Language-Kotlin-blue.svg)](https://kotlinlang.org)
+[![Jetpack Compose](https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4.svg)](https://developer.android.com/jetpack/compose)
+[![AWS](https://img.shields.io/badge/Backend-AWS-orange.svg)](https://aws.amazon.com)
+[![Material Design 3](https://img.shields.io/badge/Design-Material%203-purple.svg)](https://m3.material.io)
 
-## 📱 Features
+**A professional Android application for real-time bus tracking with GPS, motion detection, and cloud integration**
 
-### Core Features (MVP)
-- **Driver Login**: Simple login with Bus ID
-- **Automatic Trip Detection**: Uses Activity Recognition + GPS to detect movement
-- **Live Location Sharing**: Sends location data every 5 seconds when moving
-- **Status Display**: Shows Bus Running/Idle status with current coordinates & speed
-- **Background Tracking**: Continues tracking when app is minimized
+[Features](#-key-features) • [Installation](#-installation--setup) • [Architecture](#-technical-architecture) • [Usage](#-usage-guide)
 
-### Technical Features
-- **Smart Motion Detection**: Combines Activity Recognition API with GPS speed analysis
-- **Battery Optimized**: Only tracks when actually moving
-- **Offline Resilience**: Caches data when network is unavailable
-- **Permission Management**: Handles all required permissions gracefully
+</div>
+
+---
+
+## 🌟 **Overview**
+
+The Real-Time Bus Driver Panel is a comprehensive Android application designed for public transportation systems. It enables bus drivers to provide real-time location tracking with automatic trip detection, professional UI, and seamless cloud integration. Built with modern Android development practices using Jetpack Compose and MVVM architecture.
+
+## ✨ **Key Features**
+
+### 🚌 **Real-Time Location Tracking**
+- **Continuous GPS monitoring** with 5-second update intervals
+- **Foreground service** implementation for reliable background tracking
+- **Battery optimization** with intelligent location request management
+- **Offline data storage** with automatic sync when network is available
+
+### 🎯 **Automatic Trip Detection**
+- **Motion sensor integration** for automatic trip start/stop detection
+- **Activity recognition** using accelerometer to detect bus movement
+- **Smart filtering** to avoid false positives from minor movements
+- **Configurable sensitivity** for different vehicle types and conditions
+
+### 📱 **Enhanced User Interface**
+- **Material Design 3** with modern gradient backgrounds and animations
+- **Professional dashboard** with real-time status indicators and controls
+- **Intuitive login flow** with enhanced driver authentication
+- **Responsive design** optimized for various Android screen sizes
+
+### 🔐 **Smart Permission Management**
+- **Runtime permission handling** for all location services
+- **Background location** support for Android 10+ devices
+- **User-friendly explanations** with clear permission requirements
+- **Graceful fallback** handling when permissions are denied
 
 ## 🛠 Tech Stack
 
