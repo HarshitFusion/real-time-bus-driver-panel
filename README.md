@@ -20,64 +20,57 @@
 
 The Real-Time Bus Driver Panel is a comprehensive Android application designed for public transportation systems. It enables bus drivers to provide real-time location tracking with automatic trip detection, professional UI, and seamless cloud integration. Built with modern Android development practices using Jetpack Compose and MVVM architecture.
 
-## ✨ **Key Features**
+✨ Key Features
+🚌 Real-Time Location
 
-### 🚌 **Real-Time Location Tracking**
-- **Continuous GPS monitoring** with 5-second update intervals
-- **Foreground service** implementation for reliable background tracking
-- **Battery optimization** with intelligent location request management
-- **Offline data storage** with automatic sync when network is available
+GPS updates every 5 seconds
 
-### 🎯 **Automatic Trip Detection**
-- **Motion sensor integration** for automatic trip start/stop detection
-- **Activity recognition** using accelerometer to detect bus movement
-- **Smart filtering** to avoid false positives from minor movements
-- **Configurable sensitivity** for different vehicle types and conditions
+Reliable background tracking via foreground service
 
-### 📱 **Enhanced User Interface**
-- **Material Design 3** with modern gradient backgrounds and animations
-- **Professional dashboard** with real-time status indicators and controls
-- **Intuitive login flow** with enhanced driver authentication
-- **Responsive design** optimized for various Android screen sizes
+Battery-optimized location requests
 
-### 🔐 **Smart Permission Management**
-- **Runtime permission handling** for all location services
-- **Background location** support for Android 10+ devices
-- **User-friendly explanations** with clear permission requirements
-- **Graceful fallback** handling when permissions are denied
+Offline storage with auto-sync
 
-## 🛠 Tech Stack
+🎯 Trip Detection
 
-### Android App
-- **Platform**: Android (Kotlin)
-- **UI**: Jetpack Compose
-- **Architecture**: MVVM with Repository Pattern
-- **Location**: Google Play Services Location API
-- **Activity Recognition**: Google Activity Recognition API
-- **Background Processing**: Foreground Services
-- **Networking**: Retrofit + OkHttp
-- **Data**: SharedPreferences + Room (future)
+Motion sensors for auto start/stop
 
-### Backend (AWS)
-- **API**: AWS API Gateway
-- **Compute**: AWS Lambda (Node.js)
-- **Database**: AWS DynamoDB
-- **Authentication**: JWT tokens (or AWS Cognito)
+Accelerometer-based activity recognition
 
-## 📋 Prerequisites
+Smart filters to reduce false positives
 
-### Development Environment
-- Android Studio (latest version)
-- Android SDK API 24+ (Android 7.0+)
-- Kotlin support
-- Google Play Services
+Adjustable sensitivity
 
-### AWS Setup (for backend)
-- AWS Account
-- AWS CLI configured
-- DynamoDB tables created
-- API Gateway setup
-- Lambda functions deployed
+📱 User Interface
+
+Material Design 3 with modern visuals
+
+Driver dashboard with live indicators
+
+Secure, simple login
+
+Responsive layouts for all screen sizes
+
+🔐 Permissions
+
+Runtime permission handling
+
+Android 10+ background location support
+
+Clear user explanations
+
+Fallback when permissions denied
+
+🛠 Tech Stack
+
+Android (Kotlin): Jetpack Compose, MVVM, Google Location & Activity APIs, Foreground Services, Retrofit + OkHttp, SharedPreferences (Room planned)
+
+Backend (AWS): API Gateway, Lambda (Node.js), DynamoDB, JWT / Cognito
+
+📋 Prerequisites
+
+Development: Android Studio, SDK 24+, Kotlin, Google Play Services
+AWS: Account, CLI, DynamoDB tables, API Gateway, Lambda setup
 
 ## 🚀 Installation & Setup
 
